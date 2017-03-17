@@ -1,1 +1,3 @@
-comp
+<h1>welcome</h1>
+<div class="alert alert-success" *ngIf="auth.authenticated()">you are logged in</div>
+<div class="alert alert-danger" *ngIf="!auth.authenticated()">you are not logged in</div>
